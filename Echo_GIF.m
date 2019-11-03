@@ -5,7 +5,9 @@ clear,clc,close all;
 Task='Echo';
 mkdir(Task);
 
-% % recording
+% record data or read data
+
+% % 1, record data
 % fs=8000; % sampling frequency
 % rd=2; % record duration
 % recObj = audiorecorder;
@@ -18,8 +20,10 @@ mkdir(Task);
 % % Store data in double-precision array.
 % x = getaudiodata(recObj);
 
-% Read data
+% % 2, read data
 [x,fs]=audioread('Record_x.wav');
+
+% variables
 n=length(x);
 rd=n/fs;
 
