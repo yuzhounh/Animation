@@ -1,4 +1,5 @@
-# Generating .gif files
+# Animation
+Generating .gif files  
 Copyright (C) 2019 Jing Wang
 
 ## Spinning Dancer
